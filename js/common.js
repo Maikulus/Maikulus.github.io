@@ -1,5 +1,7 @@
 $(function() {
 
+	
+
 	$(".owl-carousel").owlCarousel( {
 		loop:true,
 		responsive:{
@@ -81,6 +83,8 @@ $(function() {
 		removalDelay: 300,
 		type: 'inline',
 	});
+
+	$("a[href*='#']").mPageScroll2id();
 
 	//number counter
 	$(".s-adv").waypoint(function() {
