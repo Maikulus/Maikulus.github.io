@@ -1,6 +1,6 @@
 $(function() {
-
 	
+	$("a[href*='#']").mPageScroll2id();
 
 	$(".owl-carousel").owlCarousel( {
 		loop:true,
@@ -84,7 +84,6 @@ $(function() {
 		type: 'inline',
 	});
 
-	$("a[href*='#']").mPageScroll2id();
 
 	//number counter
 	$(".s-adv").waypoint(function() {
