@@ -1,7 +1,5 @@
 $(function() {
 
-	$("a[href*='#']").mPageScroll2id();
-
 	$(".owl-carousel").owlCarousel( {
 		loop:true,
 		responsive:{
@@ -117,6 +115,8 @@ $(function() {
 			scrollTop : $(".s-adv").offset().top
 		}, 800);
 	});
+
+
 	//Animation 
 	$(".section-head p, .section-head h2").animated("fadeInUp");
 	$(".s-br .buttons").animated("zoomIn");
