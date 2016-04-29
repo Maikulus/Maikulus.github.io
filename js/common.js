@@ -1,6 +1,4 @@
 $(function() {
-	
-	$("a[href*='#']").mPageScroll2id();
 
 	$(".owl-carousel").owlCarousel( {
 		loop:true,
@@ -118,6 +116,33 @@ $(function() {
 			scrollTop : $(".s-adv").offset().top
 		}, 800);
 	});
+
+	$(".services-sc").click(function() {
+		$("html, body").animate({
+			scrollTop : $("#services").offset().top
+		}, 1000);
+	});
+
+	$(".aboutus").click(function() {
+		$("html, body").animate({
+			scrollTop : $("#aboutus").offset().top
+		}, 1200);
+	});
+
+	$(".testimonials").click(function() {
+		$("html, body").animate({
+			scrollTop : $("#testimonials").offset().top
+		}, 1400);
+	});
+
+	$(".contacts").click(function() {
+		$("html, body").animate({
+			scrollTop : $("#contacts").offset().top
+		}, 1600);
+	});
+
+
+
 
 
 	//Animation 
